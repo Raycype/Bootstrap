@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif ;
+}
+
+.start{
+    color:#1E0E62;
+    font-family: "DM Sans", sans-serif ;
+    font-size: 24px;
+}
+
+.stop{
+    color: #15143966;
+    opacity: 0.4;
+    font-family: "DM Sans", sans-serif ;
+    font-size: 16px;
+}
+
+.great{
+    width: 568px;
+    font-size: 58px;
+    color:#1E0E62;
+}
+
+.sold{
+    width: 471px;
+    color:#15143966;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.back{
+    background-color: aqua;
+
+}
+
+.learn{
+    color:#1E0E62;
+    
+}
+
+.you{
+    color:#15143966;
+    opacity: 0.8;
+    font-size: 16px;
+}
+
+@media (max-width: 992px) {
+
+    body{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    img{
+        display: none;
+    }
+    .great{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .sold{
+        width: 100%;
+        font-size: 14px;
+    }
+
+    
+
+}
